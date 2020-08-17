@@ -46,7 +46,7 @@ const Main = () => {
   return (
     <>
       <div style={{ maxWidth: "100%" }}>
-        <MaterialTable columns={columns} data={pokemons} />
+        <MaterialTable columns={columns} data={pokemons} title={"Pokemon"}/>
       </div>
     </>
   );
